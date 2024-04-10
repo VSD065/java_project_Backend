@@ -14,6 +14,11 @@
 		<spring.version>4.2.5.RELEASE</spring.version>
 		<spring.security.version>4.2.3.RELEASE</spring.security.version>
 	</properties>
+	<plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.11.0.3922</version> <!-- Use the latest version available -->
+	</plugin>
 	<dependencies>
 		<!-- Websocket -->
 		<dependency>
